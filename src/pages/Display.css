@@ -1,0 +1,59 @@
+.Display{
+    width: 85%;
+    height: 87%;
+}
+
+.search-details{
+    width: 100%;
+    display: flex;
+    height: 13%;
+    gap: 200px;
+    align-items: center;
+}
+
+.blood-group{
+    font-family: 'Inter';
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.show-data{
+    width: 100%;
+    height: 87%;
+}
+
+.card{
+    font-family: 'Inter';
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgba(255, 0, 0, 0.7);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-name{
+    margin-left: 50px;
+}
+
+.card-call{
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.7);
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: white;
+    letter-spacing: 1px;
+    border-left: 2px solid rgba(255, 0, 0, 0.7);
+    transition: .3s;
+}
+
+.card-call:hover{
+    color: red;
+    background-color: white;
+}

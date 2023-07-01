@@ -1,0 +1,39 @@
+nav{
+    min-width: 85%;
+    height: 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    color: red;
+}
+.e{
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 5px;
+}
+
+.links{
+    display: flex;
+    gap: 70px;
+    list-style-type: none;
+}
+
+.links a{
+    text-decoration: none;
+    font-family: 'Inter';
+    color: black;
+    font-weight: 500;
+    padding: 5px 15px;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.links a:hover{
+    background-color: red;
+    color: white;
+}

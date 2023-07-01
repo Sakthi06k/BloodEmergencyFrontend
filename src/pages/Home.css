@@ -1,0 +1,86 @@
+.home-form{
+    width: 85%;
+    height: 87%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.left{
+    align-self: center;
+    /* justify-self: center; */
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 75%;
+}
+
+.right{
+    align-self: center;
+    justify-self: end;
+}
+
+.select-box{
+    width: 250px;
+    font-family: 'Inter';
+    border: none;
+    border-bottom: 1.5px solid red;
+    padding: 10px 10px;
+    width: 100%;
+    font-size: 17px;
+}
+.select-box1{
+    width: 250px;
+    font-family: 'Inter';
+    border: none;
+    border-bottom: 1.5px solid red;
+    padding: 10px 10px;
+    width: 40%;
+    font-size: 17px;
+}
+
+.cityOut{
+    display: flex;
+    gap: 20px;
+}
+
+.city{
+    font-size: 17px;
+    width: 60%;
+    font-family: 'Inter';   
+    border: none;
+    padding: 10px 10px;
+    border-bottom: 1.5px solid red;
+}
+
+.getl{
+    font-size: 17px;
+    width: 40%;
+    background-color: red;
+    font-family: 'Inter';   
+    border: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.search{
+    background-color: red;
+    font-family: 'Inter';   
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    width: 350px;
+    height: 250px;
+    transform: translateX(100px);
+    border: 2px solid red;
+    transition: .2s;
+    border-radius: 50vh 0px 0px 50vh;
+    border-right: none;
+}
+
+.search:hover{
+    color: red;
+    background-color: transparent;
+}
